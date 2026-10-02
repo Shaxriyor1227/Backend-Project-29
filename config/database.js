@@ -10,6 +10,6 @@ const sequelize = new Sequelize(
     dialect: "postgres",
   }
 );
-console.log(process.env.DB_PASSWORD);
+
 
 module.exports = sequelize;

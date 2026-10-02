@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const controller = require("../controller/paymet_method.controller");
+const controller = require("../controller/payment_method.controller");
 
 /**
  * @swagger
